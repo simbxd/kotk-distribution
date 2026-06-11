@@ -1,0 +1,1627 @@
+﻿{
+    "version":  "2.0.0",
+    "discord":  {
+                    "clientId":  "0",
+                    "smallImageText":  "KOTK - Cobblemon",
+                    "smallImageKey":  "icon"
+                },
+    "servers":  [
+                    {
+                        "id":  "kotk-cobblemon-1.21.1",
+                        "name":  "KOTK - Cobblemon",
+                        "description":  "Serveur KOTK - Cobblemon | Fabric 1.21.1",
+                        "icon":  "https://raw.githubusercontent.com/simbxd/kotk-distribution/main/icon.png",
+                        "version":  "1.4.0",
+                        "address":  "game07.helloserv.fr:25501",
+                        "minecraftVersion":  "1.21.1",
+                        "discord":  {
+                                        "shortId":  "KOTK",
+                                        "largeImageText":  "KOTK - Cobblemon",
+                                        "largeImageKey":  "icon"
+                                    },
+                        "mainServer":  true,
+                        "autoconnect":  false,
+                        "modules":  [
+                                        {
+                                            "id":  "net.fabricmc:fabric-loader:0.18.4",
+                                            "name":  "Fabric Loader 0.18.4",
+                                            "type":  "FabricHosted",
+                                            "artifact":  {
+                                                             "size":  0,
+                                                             "url":  "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:accessories_compat_layer-fabric-0.1.12+1.21.1",
+                                            "name":  "accessories_compat_layer-fabric-0.1.12+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  398321,
+                                                             "MD5":  "a256ab28e228cee098a516eef191c886",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/accessories_compat_layer-fabric-0.1.12%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:accessories-fabric-1.1.0-beta.53+1.21.1",
+                                            "name":  "accessories-fabric-1.1.0-beta.53+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1095802,
+                                                             "MD5":  "1f332447eadf66a07b33e641816fcd5e",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:advancementdisable-fabric-1.0.1+1.21",
+                                            "name":  "advancementdisable-fabric-1.0.1+1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  430412,
+                                                             "MD5":  "0d7e6553d89b0175237310571d8c9fbe",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/advancementdisable-fabric-1.0.1%2B1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:advancementplaques-1.21.1-fabric-1.6.8",
+                                            "name":  "AdvancementPlaques-1.21.1-fabric-1.6.8",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  195505,
+                                                             "MD5":  "99b36bb8a2f7fd84ea83c00b65be9b90",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/AdvancementPlaques-1.21.1-fabric-1.6.8.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:another_furniture-fabric-4.0.2",
+                                            "name":  "another_furniture-fabric-4.0.2",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2398841,
+                                                             "MD5":  "205dc477171d01dbbf8dc6c72db8c9cd",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/another_furniture-fabric-4.0.2.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:architectury-13.0.8-fabric",
+                                            "name":  "architectury-13.0.8-fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  600915,
+                                                             "MD5":  "702e92d09a4855c6c8aa9e738a48efa4",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/architectury-13.0.8-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:athena-fabric-1.21-4.0.2",
+                                            "name":  "athena-fabric-1.21-4.0.2",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  82788,
+                                                             "MD5":  "15aefefa313da7447f53b2276e0d0645",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/athena-fabric-1.21-4.0.2.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:badoptimizations-2.4.1-1.21.1",
+                                            "name":  "BadOptimizations-2.4.1-1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  283566,
+                                                             "MD5":  "59ee243a5ccd09fff1dd2879b3cad72a",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/BadOptimizations-2.4.1-1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:balm-fabric-1.21.1-21.0.56",
+                                            "name":  "balm-fabric-1.21.1-21.0.56",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  773504,
+                                                             "MD5":  "38b7a4a058adde9328d48240effda68c",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/balm-fabric-1.21.1-21.0.56.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:beautify-2.0.0+1.21.1",
+                                            "name":  "beautify-2.0.0+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  837607,
+                                                             "MD5":  "eaf50ca33137846e0430aa8afc48a223",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/beautify-2.0.0%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:betterbeds-fabric-1.4.0",
+                                            "name":  "betterbeds-fabric-1.4.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  39918,
+                                                             "MD5":  "cfecd69bea2c2df987327ee0b537486c",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/betterbeds-fabric-1.4.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:betterf1-fabric-1.1+1.21.7",
+                                            "name":  "BetterF1-Fabric-1.1+1.21.7",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  22834,
+                                                             "MD5":  "ca612bf34c9c8e18e14358823c63a0f3",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/BetterF1-Fabric-1.1%2B1.21.7.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:betterf3-11.0.3-fabric-1.21.1",
+                                            "name":  "BetterF3-11.0.3-Fabric-1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1810710,
+                                                             "MD5":  "4f3a811be18c5c1cb64f39f3de6fb0bd",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/BetterF3-11.0.3-Fabric-1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:betterthirdperson-fabric-1.21-1.9.0",
+                                            "name":  "BetterThirdPerson-Fabric-1.21-1.9.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  52188,
+                                                             "MD5":  "32de4a8aff2d1706a69f44fd22acd78c",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/BetterThirdPerson-Fabric-1.21-1.9.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:biomereplacer-2.1-hippo-fabric",
+                                            "name":  "biomereplacer-2.1-hippo-fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  138694,
+                                                             "MD5":  "d31a5b16f5ef5354b5b28dc736c6979d",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/biomereplacer-2.1-hippo-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:brb-1.10.0-rc5+1.21",
+                                            "name":  "brb-1.10.0-rc5+1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1213168,
+                                                             "MD5":  "d718eff1a6a0f2f9b863f67082ec092e",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/brb-1.10.0-rc5%2B1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:c2me-fabric-mc1.21.1-0.3.0+alpha.0.362",
+                                            "name":  "c2me-fabric-mc1.21.1-0.3.0+alpha.0.362",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  4701117,
+                                                             "MD5":  "5c6dddda91faaf504f9cd96407f8855b",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/c2me-fabric-mc1.21.1-0.3.0%2Balpha.0.362.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:capturexp-fabric-1.7.3-1.3.0",
+                                            "name":  "capturexp-fabric-1.7.3-1.3.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  22848,
+                                                             "MD5":  "e6fc02948bb7b46b6554bc6df987e6f2",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/capturexp-fabric-1.7.3-1.3.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:carryon-fabric-1.21.1-2.2.4.4",
+                                            "name":  "carryon-fabric-1.21.1-2.2.4.4",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  361397,
+                                                             "MD5":  "1a05e668389689c938ac51a1d4882acc",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/carryon-fabric-1.21.1-2.2.4.4.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:carved-wood-fabric-1.21.1-1.8.2",
+                                            "name":  "Carved Wood-fabric-1.21.1-1.8.2",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2458227,
+                                                             "MD5":  "10e6ff35e9cf3a5ef70cbebdee70ac8c",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Carved%20Wood-fabric-1.21.1-1.8.2.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:catchindicator-fabric-1.6.2",
+                                            "name":  "catchindicator-fabric-1.6.2",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  318799,
+                                                             "MD5":  "19c02b809341d643f17c9c4536726fe7",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/catchindicator-fabric-1.6.2.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:catchrate-display-fabric-2.8.14",
+                                            "name":  "catchrate-display-fabric-2.8.14",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  227893,
+                                                             "MD5":  "d449cb4965223cebd0282f019345b0d8",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/catchrate-display-fabric-2.8.14.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cloth-config-15.0.140-fabric",
+                                            "name":  "cloth-config-15.0.140-fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1157166,
+                                                             "MD5":  "a2c091b027ad6ba8e54b07020fd45884",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/cloth-config-15.0.140-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobblecuisine-2.0.1-1.7-rc1",
+                                            "name":  "cobblecuisine-2.0.1-1.7-rc1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  683115,
+                                                             "MD5":  "3d61b2fab71618ae9dabed911f2e0a63",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/cobblecuisine-2.0.1-1.7-rc1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobbledollars-fabric-2.0.0+beta-5.1+1.21.1",
+                                            "name":  "CobbleDollars-fabric-2.0.0+Beta-5.1+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  369528,
+                                                             "MD5":  "1c38ad40c554bd82109d778daa95ecfe",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/CobbleDollars-fabric-2.0.0%2BBeta-5.1%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobblefurnies-fabric-1.0",
+                                            "name":  "CobbleFurnies-fabric-1.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2319618,
+                                                             "MD5":  "a194d0647f3ed6a8deab689f4e933d48",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/CobbleFurnies-fabric-1.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobblemon-additions-4.1.6",
+                                            "name":  "cobblemon-additions-4.1.6",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1961229,
+                                                             "MD5":  "73fd17cc59f38c1e03a1b2a37d7252af",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/cobblemon-additions-4.1.6.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobblemon-battle-extras-fabric-1.12.42",
+                                            "name":  "cobblemon-battle-extras-fabric-1.12.42",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1437400,
+                                                             "MD5":  "4603165da3441b105e517df85c4e4c33",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/cobblemon-battle-extras-fabric-1.12.42.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobblemon-battle-positions-1.1.3",
+                                            "name":  "cobblemon-battle-positions-1.1.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  58572,
+                                                             "MD5":  "875686694669573a33b75dc843c212ed",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/cobblemon-battle-positions-1.1.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobblemon-fabric-1.7.3+1.21.1",
+                                            "name":  "Cobblemon-fabric-1.7.3+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  135801550,
+                                                             "MD5":  "1de64f280372ec94e4376976fb579d52",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Cobblemon-fabric-1.7.3%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobblemonintegrations-fabric-1.21.1-1.1.6",
+                                            "name":  "cobblemonintegrations-fabric-1.21.1-1.1.6",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  373321,
+                                                             "MD5":  "90e5df694ce88be4c0d95673a71b2036",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/cobblemonintegrations-fabric-1.21.1-1.1.6.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobblemon-pasturecollector-fabric-1.7.3-1.4.0",
+                                            "name":  "cobblemon-pasturecollector-fabric-1.7.3-1.4.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  88068,
+                                                             "MD5":  "62d31549e70884ea3635be8c9724cba3",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/cobblemon-pasturecollector-fabric-1.7.3-1.4.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobblemonraiddens-fabric-0.10.0+1.21.1",
+                                            "name":  "cobblemonraiddens-fabric-0.10.0+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2662180,
+                                                             "MD5":  "8845cb8f5ce7cc0da2515dcd4739a8cc",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/cobblemonraiddens-fabric-0.10.0%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobblemon-simbxd-safari-1.2.0",
+                                            "name":  "cobblemon-simbxd-safari-1.2.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  17611196,
+                                                             "MD5":  "48deb4a85a29fe74548f2a0402040bfb",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/cobblemon-simbxd-safari-1.2.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobblenav-fabric-2.3.2",
+                                            "name":  "cobblenav-fabric-2.3.2",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1078068,
+                                                             "MD5":  "3ce6c02cef8779430f144371c478bb1e",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/cobblenav-fabric-2.3.2.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobblespawnalertreforged-2.5.2",
+                                            "name":  "CobbleSpawnAlertReforged-2.5.2",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  3795379,
+                                                             "MD5":  "43fdf24974a21d3855c3dceae3510c10",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/CobbleSpawnAlertReforged-2.5.2.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobbleversebadges-1.3",
+                                            "name":  "CobbleverseBadges-1.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  137015,
+                                                             "MD5":  "079f81e2f318e82c57c5dd87431d283c",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/CobbleverseBadges-1.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:cobbreeding-fabric-2.2.0",
+                                            "name":  "Cobbreeding-fabric-2.2.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  474198,
+                                                             "MD5":  "b043fe2c32a05ee60167b7a89c6f1128",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Cobbreeding-fabric-2.2.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:comforts-fabric-9.0.5+1.21.1",
+                                            "name":  "comforts-fabric-9.0.5+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  914494,
+                                                             "MD5":  "609e01638d5b6f2d864ee299e524395d",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/comforts-fabric-9.0.5%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:continuity-3.0.0+1.21",
+                                            "name":  "continuity-3.0.0+1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1014044,
+                                                             "MD5":  "daee3841730e2576a621943f289deadb",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/continuity-3.0.0%2B1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:controlling-fabric-1.21.1-19.0.5",
+                                            "name":  "Controlling-fabric-1.21.1-19.0.5",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  83679,
+                                                             "MD5":  "5660c1ed5fee202ca5ca9a617a4202b4",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Controlling-fabric-1.21.1-19.0.5.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:corgilib-fabric-1.21.1-5.0.0.9",
+                                            "name":  "Corgilib-Fabric-1.21.1-5.0.0.9",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  692956,
+                                                             "MD5":  "69ae0422ba00a97fe4040db90f1df82f",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Corgilib-Fabric-1.21.1-5.0.0.9.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:data_anchor-fabric-1.21.1-2.0.0.14",
+                                            "name":  "Data_Anchor-fabric-1.21.1-2.0.0.14",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  126052,
+                                                             "MD5":  "8f4a5ba5ee0c06801e25839f358c7fc2",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Data_Anchor-fabric-1.21.1-2.0.0.14.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:debugify-1.21.1+1.0",
+                                            "name":  "Debugify-1.21.1+1.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  292202,
+                                                             "MD5":  "604cf2f99be0b208a3354783f5b56fa2",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Debugify-1.21.1%2B1.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:defaultoptions-fabric-1.21.1-21.1.5",
+                                            "name":  "defaultoptions-fabric-1.21.1-21.1.5",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  98232,
+                                                             "MD5":  "6cac0e62fe749964a120b2a1b866529a",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/defaultoptions-fabric-1.21.1-21.1.5.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:droploottables-fabric-1.7.3-1.9.1",
+                                            "name":  "droploottables-fabric-1.7.3-1.9.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  506987,
+                                                             "MD5":  "401e73cf665a573cb0206f6363e86e9d",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/droploottables-fabric-1.7.3-1.9.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:enhanced-celestials-fabric-1.21.1-6.0.2.5",
+                                            "name":  "Enhanced-Celestials-Fabric-1.21.1-6.0.2.5",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1606879,
+                                                             "MD5":  "5cd5f51a36d3e0d6023f10be5e50648b",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Enhanced-Celestials-Fabric-1.21.1-6.0.2.5.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:entity_model_features_1.21-fabric-3.0.17",
+                                            "name":  "entity_model_features_1.21-fabric-3.0.17",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  498026,
+                                                             "MD5":  "116949ab8a5a495d1d4350d4864d68fb",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/entity_model_features_1.21-fabric-3.0.17.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:entity_texture_features_1.21-fabric-7.0.13",
+                                            "name":  "entity_texture_features_1.21-fabric-7.0.13",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  728249,
+                                                             "MD5":  "6837da0851e95d055101eb2a282def3a",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/entity_texture_features_1.21-fabric-7.0.13.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:entityculling-fabric-1.10.0-mc1.21.1",
+                                            "name":  "entityculling-fabric-1.10.0-mc1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1569123,
+                                                             "MD5":  "724cbc744a27f3b5a1464b1a0060a34e",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/entityculling-fabric-1.10.0-mc1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:euphoriapatcher-1.8.6-r5.7.1-fabric",
+                                            "name":  "EuphoriaPatcher-1.8.6-r5.7.1-fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2827550,
+                                                             "MD5":  "6393b39f3106513ec3f292357c462252",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/EuphoriaPatcher-1.8.6-r5.7.1-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:fabric-api-0.116.10+1.21.1",
+                                            "name":  "fabric-api-0.116.10+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2425988,
+                                                             "MD5":  "aaf363fd453f1be1c0bc7c6de5abfad1",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/fabric-api-0.116.10%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:fabric-language-kotlin-1.13.10+kotlin.2.3.20",
+                                            "name":  "fabric-language-kotlin-1.13.10+kotlin.2.3.20",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  7796348,
+                                                             "MD5":  "ab31a7c6fdfeb7f5dca011dcfa88ff08",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/fabric-language-kotlin-1.13.10%2Bkotlin.2.3.20.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:fallingtree-1.21.1-1.21.1.11",
+                                            "name":  "FallingTree-1.21.1-1.21.1.11",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  496356,
+                                                             "MD5":  "1aa67a6d9ad5dd7ceb72fb5a1e20af55",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/FallingTree-1.21.1-1.21.1.11.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:fancymenu_fabric_3.8.1_mc_1.21.1",
+                                            "name":  "fancymenu_fabric_3.8.1_MC_1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  4522643,
+                                                             "MD5":  "8e396d8a4315d4d5db4fe742d8d4c0b2",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/fancymenu_fabric_3.8.1_MC_1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:ferritecore-7.0.3-fabric",
+                                            "name":  "ferritecore-7.0.3-fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  123450,
+                                                             "MD5":  "b8513c8c3eef01ea1117ed8d8cba060d",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/ferritecore-7.0.3-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:fightorflight-fabric-0.10.7",
+                                            "name":  "fightorflight-fabric-0.10.7",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1415149,
+                                                             "MD5":  "ad33c552b7c642a8c52091c84147b994",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/fightorflight-fabric-0.10.7.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:forgeconfigapiport-v21.1.6-1.21.1-fabric",
+                                            "name":  "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  633065,
+                                                             "MD5":  "eba1a7f9d9976e983a2b9eb5e915e087",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:forgivingvoid-fabric-1.21.1-21.1.6",
+                                            "name":  "forgivingvoid-fabric-1.21.1-21.1.6",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  76824,
+                                                             "MD5":  "b2ae69015462cce25b3ecc212dbae27e",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/forgivingvoid-fabric-1.21.1-21.1.6.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:ftb-chunks-fabric-2101.1.14",
+                                            "name":  "ftb-chunks-fabric-2101.1.14",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  634842,
+                                                             "MD5":  "8e675c6f52bcd01e2993fcc34d00262c",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/ftb-chunks-fabric-2101.1.14.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:ftb-library-fabric-2101.1.31",
+                                            "name":  "ftb-library-fabric-2101.1.31",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1406585,
+                                                             "MD5":  "f0cf3c851688dcd33aefefb117d10f9b",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/ftb-library-fabric-2101.1.31.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:ftb-ranks-fabric-2101.1.3",
+                                            "name":  "ftb-ranks-fabric-2101.1.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  87075,
+                                                             "MD5":  "25da23710595af49dff1b6416ed45f26",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/ftb-ranks-fabric-2101.1.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:ftb-teams-fabric-2101.1.10",
+                                            "name":  "ftb-teams-fabric-2101.1.10",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  298292,
+                                                             "MD5":  "cf325f7dc2c5f527d991f116bec22441",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/ftb-teams-fabric-2101.1.10.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:fusion-1.2.12-fabric-mc1.21",
+                                            "name":  "fusion-1.2.12-fabric-mc1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  515411,
+                                                             "MD5":  "2220961413c51080d4ce12c0fb5f958d",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/fusion-1.2.12-fabric-mc1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:fzzy_config-0.7.6+1.21",
+                                            "name":  "fzzy_config-0.7.6+1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2365335,
+                                                             "MD5":  "dcedb9014b228c01941b2ef4f2743f19",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/fzzy_config-0.7.6%2B1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:geckolib-fabric-1.21.1-4.8.4",
+                                            "name":  "geckolib-fabric-1.21.1-4.8.4",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  653722,
+                                                             "MD5":  "0044e7b8b4d4096257031692f5995a2c",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/geckolib-fabric-1.21.1-4.8.4.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:globalpacks-fabric-1.21.1-21.0.6",
+                                            "name":  "globalpacks-fabric-1.21.1-21.0.6",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  394707,
+                                                             "MD5":  "30850a43a7a21b109ed7ab19decf247d",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/globalpacks-fabric-1.21.1-21.0.6.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:handcrafted-fabric-1.21.1-4.0.3",
+                                            "name":  "handcrafted-fabric-1.21.1-4.0.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  7127377,
+                                                             "MD5":  "4ae4f2fe6a71eaeeade3ce0eb1db7997",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/handcrafted-fabric-1.21.1-4.0.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:highlight-fabric-1.21-3.0.0",
+                                            "name":  "highlight-fabric-1.21-3.0.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  457352,
+                                                             "MD5":  "234ee14bc223ae7594b41e16c7357518",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/highlight-fabric-1.21-3.0.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:huge-structure-blocks-fabric-1.1.6",
+                                            "name":  "huge-structure-blocks-fabric-1.1.6",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  100230,
+                                                             "MD5":  "3d2c52db7fb380822586b6d42ecde976",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/huge-structure-blocks-fabric-1.1.6.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:iceberg-1.21.1-fabric-1.3.2",
+                                            "name":  "Iceberg-1.21.1-fabric-1.3.2",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  413302,
+                                                             "MD5":  "fe26852d922aa24dad9c81270a09f929",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Iceberg-1.21.1-fabric-1.3.2.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:immediatelyfast-fabric-1.6.10+1.21.1",
+                                            "name":  "ImmediatelyFast-Fabric-1.6.10+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  342770,
+                                                             "MD5":  "15a2eafb373bf55d7db6b45971110825",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/ImmediatelyFast-Fabric-1.6.10%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:infinite-music-0.4.6",
+                                            "name":  "infinite-music-0.4.6",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  45913,
+                                                             "MD5":  "c5e39b215131bf34675e19dfc89daac0",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/infinite-music-0.4.6.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:interactic-0.2.3+1.21",
+                                            "name":  "interactic-0.2.3+1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  118011,
+                                                             "MD5":  "08efa54362ed6b49f37e4fea9788dd36",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/interactic-0.2.3%2B1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:iris-fabric-1.8.8+mc1.21.1",
+                                            "name":  "iris-fabric-1.8.8+mc1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2690177,
+                                                             "MD5":  "1179fe09b9ba970e84ed59259adfe65a",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/iris-fabric-1.8.8%2Bmc1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:just-hammers-fabric-21.1.4",
+                                            "name":  "just-hammers-fabric-21.1.4",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  108688,
+                                                             "MD5":  "709cf9b716871e3ecca862dff129fb47",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/just-hammers-fabric-21.1.4.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:konkrete_fabric_1.9.9_mc_1.21",
+                                            "name":  "konkrete_fabric_1.9.9_MC_1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  786695,
+                                                             "MD5":  "287ee9cfc6015f706672fd8c20f5ef9c",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/konkrete_fabric_1.9.9_MC_1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:krypton-0.2.8",
+                                            "name":  "krypton-0.2.8",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  161045,
+                                                             "MD5":  "9ba3d734dac0e59deb4721f2f23c65ad",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/krypton-0.2.8.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:legendarymonuments-cobbleverse",
+                                            "name":  "LegendaryMonuments-Cobbleverse",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  5736792,
+                                                             "MD5":  "7c9ecce22a99dbaebef513a78384309a",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/LegendaryMonuments-Cobbleverse.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:lenientdeath-1.2.5+1.21.1",
+                                            "name":  "lenientdeath-1.2.5+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  920915,
+                                                             "MD5":  "3d93c1e47b380a4b7eff0342d56c0258",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/lenientdeath-1.2.5%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:libipn-fabric-1.21.1-6.6.3",
+                                            "name":  "libIPN-fabric-1.21.1-6.6.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  636114,
+                                                             "MD5":  "1eec21a1126927a67493bfc3d4045564",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/libIPN-fabric-1.21.1-6.6.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:libjf-3.17.3",
+                                            "name":  "libjf-3.17.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1283376,
+                                                             "MD5":  "3f4c4677e93c4a6701d085bedd125f7c",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/libjf-3.17.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:lithium-fabric-0.15.3+mc1.21.1",
+                                            "name":  "lithium-fabric-0.15.3+mc1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  797398,
+                                                             "MD5":  "469d5a220904850809f35f92f53854f1",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/lithium-fabric-0.15.3%2Bmc1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:lootr-fabric-1.21.1-1.11.37.120",
+                                            "name":  "lootr-fabric-1.21.1-1.11.37.120",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1018857,
+                                                             "MD5":  "527011f0d2fac8e30f68734208e171dc",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/lootr-fabric-1.21.1-1.11.37.120.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:luckys-cozyhome-refurnished-1.1.20",
+                                            "name":  "Luckys-Cozyhome-Refurnished-1.1.20",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  3121070,
+                                                             "MD5":  "c432cd0ce7f8dc715acd559d44d524cf",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Luckys-Cozyhome-Refurnished-1.1.20.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:lumymon-0.6.5",
+                                            "name":  "LumyMon-0.6.5",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2372128,
+                                                             "MD5":  "0f3b63c6194b7eec2bbf2ecea479ebf8",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/LumyMon-0.6.5.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:lumyrei-1.1.3",
+                                            "name":  "LumyREI-1.1.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  66283,
+                                                             "MD5":  "f35e2c7a5303afc7299e551f4b7aeb2d",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/LumyREI-1.1.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:lunarshaders-fabric-1.21.1-2.1.0",
+                                            "name":  "lunarshaders-fabric-1.21.1-2.1.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  232184,
+                                                             "MD5":  "9ed0c58c55d45726b73519b3e49754f5",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/lunarshaders-fabric-1.21.1-2.1.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:mega_showdown-fabric-1.7.3+1.7.3+1.21.1",
+                                            "name":  "mega_showdown-fabric-1.7.3+1.7.3+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  16947666,
+                                                             "MD5":  "33386165ebf83f650217d3dd85fc9562",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/mega_showdown-fabric-1.7.3%2B1.7.3%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:melody_fabric_1.0.10_mc_1.21",
+                                            "name":  "melody_fabric_1.0.10_MC_1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  188035,
+                                                             "MD5":  "0f1bfbf2dd4fa047a1616fc448f3b856",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/melody_fabric_1.0.10_MC_1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:midnightlib-1.7.5-fabric+1.21.1",
+                                            "name":  "midnightlib-1.7.5-fabric+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  62853,
+                                                             "MD5":  "5134d5bc38b64b8cd8d22f78b8a6a296",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/midnightlib-1.7.5-fabric%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:moar-concrete-1.3.1",
+                                            "name":  "moar-concrete-1.3.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  777538,
+                                                             "MD5":  "15e0f4f9c262a21499792bbf63601b15",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/moar-concrete-1.3.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:mobsbegone-0.0.7",
+                                            "name":  "MobsBeGone-0.0.7",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  9837,
+                                                             "MD5":  "5995db9172923b0476e76e5f8356e6e1",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/MobsBeGone-0.0.7.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:modernfix-fabric-5.25.1+mc1.21.1",
+                                            "name":  "modernfix-fabric-5.25.1+mc1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  471258,
+                                                             "MD5":  "17260c894041b7b4a1b1f2fd1a8f1a8b",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/modernfix-fabric-5.25.1%2Bmc1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:modmenu-11.0.4",
+                                            "name":  "modmenu-11.0.4",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  973059,
+                                                             "MD5":  "b2b9c53a887c100f780708c4f36db6c4",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/modmenu-11.0.4.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:morecobblemontweaks-fabric-1.3.3",
+                                            "name":  "MoreCobblemonTweaks-fabric-1.3.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  137626,
+                                                             "MD5":  "8c9e870b8dc446ffdc98d106f65da075",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/MoreCobblemonTweaks-fabric-1.3.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:moreculling-fabric-1.21.1-1.0.7",
+                                            "name":  "moreculling-fabric-1.21.1-1.0.7",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  346926,
+                                                             "MD5":  "25a3b661d2cf7ea41d7e5d9d04010cce",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/moreculling-fabric-1.21.1-1.0.7.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:mousetweaks-fabric-mc1.21-2.26",
+                                            "name":  "MouseTweaks-fabric-mc1.21-2.26",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  75984,
+                                                             "MD5":  "1d39ead1641ef522bc7ae92383f21da8",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/MouseTweaks-fabric-mc1.21-2.26.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:musicnotification-fabric-mc1.21-2.1.0",
+                                            "name":  "MusicNotification-fabric-mc1.21-2.1.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  117260,
+                                                             "MD5":  "59219d9ec1959f7ea3d5b897af8056c5",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/MusicNotification-fabric-mc1.21-2.1.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:naturescompass-1.21.1-2.6.0-fabric",
+                                            "name":  "NaturesCompass-1.21.1-2.6.0-fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  233392,
+                                                             "MD5":  "3722c9cfc0726712d7b75512acef83ce",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/NaturesCompass-1.21.1-2.6.0-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:nethermap-4.0.0-1.21.1",
+                                            "name":  "nethermap-4.0.0-1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  21464,
+                                                             "MD5":  "97c2cba4be2111c6c964b9f3eb1ccc3c",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/nethermap-4.0.0-1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:netherportalfix-fabric-1.21.1-21.1.3",
+                                            "name":  "netherportalfix-fabric-1.21.1-21.1.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  213294,
+                                                             "MD5":  "b9a0a822741aafe118ce9f883f8e86c4",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/netherportalfix-fabric-1.21.1-21.1.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:notenoughanimations-fabric-1.12.0-mc1.21.1",
+                                            "name":  "notenoughanimations-fabric-1.12.0-mc1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1927416,
+                                                             "MD5":  "cd12c159cdbc2f9059a7ee25dd1a8a50",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/notenoughanimations-fabric-1.12.0-mc1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:notenoughcrashes-fabric-4.4.9+1.21.1",
+                                            "name":  "notenoughcrashes-fabric-4.4.9+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  601087,
+                                                             "MD5":  "635fe76b795c2d91f9a6c4bc436e5266",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/notenoughcrashes-fabric-4.4.9%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:oh-the-biomes-weve-gone-fabric-2.5.5",
+                                            "name":  "Oh-The-Biomes-Weve-Gone-Fabric-2.5.5",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  20726949,
+                                                             "MD5":  "4ff23586f75f029ba7d0e7da9474ce87",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Oh-The-Biomes-Weve-Gone-Fabric-2.5.5.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:oh-the-trees-youll-grow-fabric-1.21.1-5.3.2",
+                                            "name":  "Oh-The-Trees-Youll-Grow-fabric-1.21.1-5.3.2",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  165002,
+                                                             "MD5":  "6523de4f38136202ac7b1ab9720e6e80",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Oh-The-Trees-Youll-Grow-fabric-1.21.1-5.3.2.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:only-bottle-caps-1.3.0",
+                                            "name":  "Only Bottle Caps-1.3.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  250451,
+                                                             "MD5":  "2380d10d347cf1c18dfdf9eec429f599",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Only%20Bottle%20Caps-1.3.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:owo-lib-0.12.15.4+1.21",
+                                            "name":  "owo-lib-0.12.15.4+1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1183559,
+                                                             "MD5":  "3627aee17111e12a8c66928f5d7a3fba",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/owo-lib-0.12.15.4%2B1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:packetfixer-3.3.1-1.20.5-1.21.x-merged",
+                                            "name":  "packetfixer-3.3.1-1.20.5-1.21.X-merged",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  46623,
+                                                             "MD5":  "8f22fb065079340a72ae5ce0da12efcb",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:paginatedadvancements-2.5.1",
+                                            "name":  "paginatedadvancements-2.5.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  71859,
+                                                             "MD5":  "98972ac66573f39aff66cc2a396ef916",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/paginatedadvancements-2.5.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:particle_core-0.3.3+1.21",
+                                            "name":  "particle_core-0.3.3+1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  147812,
+                                                             "MD5":  "0900279584f271fc4647e575883850ae",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/particle_core-0.3.3%2B1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:particlerain-4.0.0-beta.9+1.21.1-fabric",
+                                            "name":  "particlerain-4.0.0-beta.9+1.21.1-fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  605266,
+                                                             "MD5":  "72333f72c6d61f7fd80b15d153a4c1b4",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/particlerain-4.0.0-beta.9%2B1.21.1-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:particular-1.21.1-fabric-1.1.2",
+                                            "name":  "particular-1.21.1-Fabric-1.1.2",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  240317,
+                                                             "MD5":  "98825e96e05e8c4a55a582278d9aca01",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/particular-1.21.1-Fabric-1.1.2.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:pastureloot-1.0.5+1.21.1",
+                                            "name":  "pastureLoot-1.0.5+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  45871,
+                                                             "MD5":  "ef3ebf8d082e4af1fb6f54524e8c1f70",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/pastureLoot-1.0.5%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:ping-wheel-1.12.1-fabric-1.21.1",
+                                            "name":  "Ping-Wheel-1.12.1-fabric-1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  152389,
+                                                             "MD5":  "61833a9dcd49ee3e146150deb64c7536",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Ping-Wheel-1.12.1-fabric-1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:platform-fabric-1.21.1-1.3",
+                                            "name":  "Platform-fabric-1.21.1-1.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  719170,
+                                                             "MD5":  "9b8d087dd5d790aba8aaf90d42eaca9b",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Platform-fabric-1.21.1-1.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:playerladder-fabric-1.21-0.7.1",
+                                            "name":  "playerladder-fabric-1.21-0.7.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  32480,
+                                                             "MD5":  "64c5199af8c1c33941447cbf03a2a0c7",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/playerladder-fabric-1.21-0.7.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:playerxp-fabric-1.0.8+1.21.1",
+                                            "name":  "playerxp-fabric-1.0.8+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  9964,
+                                                             "MD5":  "c6a1155c6f1ac6faac7fc49a7db0322f",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/playerxp-fabric-1.0.8%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:pokeblocks-1.4.0-1.21.1",
+                                            "name":  "pokeblocks-1.4.0-1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1606467,
+                                                             "MD5":  "a576344a9af471b67b47437adcdd2a63",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/pokeblocks-1.4.0-1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:rctapi-fabric-1.21.1-0.15.0-beta",
+                                            "name":  "rctapi-fabric-1.21.1-0.15.0-beta",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  233126,
+                                                             "MD5":  "e5b864174e0a4b7eb1b887b5165df3f7",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/rctapi-fabric-1.21.1-0.15.0-beta.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:rctmod-fabric-1.21.1-0.17.7-beta",
+                                            "name":  "rctmod-fabric-1.21.1-0.17.7-beta",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  4762456,
+                                                             "MD5":  "615dfb5e74e0b1c077d5af6d9dee4955",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/rctmod-fabric-1.21.1-0.17.7-beta.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:rechiseled-1.2.4-fabric-mc1.21",
+                                            "name":  "rechiseled-1.2.4-fabric-mc1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  11913849,
+                                                             "MD5":  "ed15b2605a5e08998aad62a371b64a2a",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/rechiseled-1.2.4-fabric-mc1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:reeses-sodium-options-fabric-1.8.3+mc1.21.4",
+                                            "name":  "reeses-sodium-options-fabric-1.8.3+mc1.21.4",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  81067,
+                                                             "MD5":  "85f69ebd3bde2559ee53c01daa8e361e",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/reeses-sodium-options-fabric-1.8.3%2Bmc1.21.4.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:repurposed_structures-7.5.18+1.21.1-fabric",
+                                            "name":  "repurposed_structures-7.5.18+1.21.1-fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  8195855,
+                                                             "MD5":  "5c9f2cded8f3bc8c40889a2446bcea4a",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/repurposed_structures-7.5.18%2B1.21.1-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:resourcefullib-fabric-1.21-3.0.12",
+                                            "name":  "resourcefullib-fabric-1.21-3.0.12",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  485586,
+                                                             "MD5":  "89dac4248b76747800fbc00fa063825e",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/resourcefullib-fabric-1.21-3.0.12.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:resourcepackoverrides-v21.1.0-1.21.1-fabric",
+                                            "name":  "ResourcePackOverrides-v21.1.0-1.21.1-Fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  80827,
+                                                             "MD5":  "a4a05891e061eba03472755073777d8c",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/ResourcePackOverrides-v21.1.0-1.21.1-Fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:respackopts-4.11.3",
+                                            "name":  "respackopts-4.11.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  530926,
+                                                             "MD5":  "c368111712351fefa2abe462fae47cc6",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/respackopts-4.11.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:roughlyenoughitems-16.0.799-fabric",
+                                            "name":  "RoughlyEnoughItems-16.0.799-fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2451799,
+                                                             "MD5":  "8a011fbf376cc4350743274bfd16d3cf",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/RoughlyEnoughItems-16.0.799-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:safepastures-1.1.1+1.21.1",
+                                            "name":  "SafePastures-1.1.1+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  16518,
+                                                             "MD5":  "af5597adebbfad7f73c01e118d93bf97",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/SafePastures-1.1.1%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:scalablelux-0.1.0.1+fabric.d0d58ab-all",
+                                            "name":  "ScalableLux-0.1.0.1+fabric.d0d58ab-all",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  177266,
+                                                             "MD5":  "34cb60a3db0f2439db221bc3325c1411",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/ScalableLux-0.1.0.1%2Bfabric.d0d58ab-all.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:searchables-fabric-1.21.1-1.0.2",
+                                            "name":  "Searchables-fabric-1.21.1-1.0.2",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  79531,
+                                                             "MD5":  "33d8f858261d757ef89144ac13013987",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Searchables-fabric-1.21.1-1.0.2.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:sodium-extra-fabric-0.6.0+mc1.21.1",
+                                            "name":  "sodium-extra-fabric-0.6.0+mc1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  373661,
+                                                             "MD5":  "a2aa3212fe6397f39984b8c9e840956a",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/sodium-extra-fabric-0.6.0%2Bmc1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:sodium-fabric-0.6.13+mc1.21.1",
+                                            "name":  "sodium-fabric-0.6.13+mc1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1297761,
+                                                             "MD5":  "aa37ba0048a1af6b554b137088cad484",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/sodium-fabric-0.6.13%2Bmc1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:sodiumoptionsapi-fabric-1.0.10-1.21.1",
+                                            "name":  "sodiumoptionsapi-fabric-1.0.10-1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  903592,
+                                                             "MD5":  "416f18c07f78f12c5de71d1cc87c14a9",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/sodiumoptionsapi-fabric-1.0.10-1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:sophisticatedbackpacks-1.21.1-3.23.4.3.106",
+                                            "name":  "sophisticatedbackpacks-1.21.1-3.23.4.3.106",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  988478,
+                                                             "MD5":  "642d3aaa4161a9df7b709a6b7f378f17",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:sophisticatedcore-1.21.1-1.2.9.21.168",
+                                            "name":  "sophisticatedcore-1.21.1-1.2.9.21.168",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2996065,
+                                                             "MD5":  "44bf607ca1a8bfb7410514db85ac9c28",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/sophisticatedcore-1.21.1-1.2.9.21.168.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:sophisticatedstorage-1.21.1-1.3.7.9.139",
+                                            "name":  "sophisticatedstorage-1.21.1-1.3.7.9.139",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1670672,
+                                                             "MD5":  "3e02634de2d379bf58b58bb14c2e5481",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/sophisticatedstorage-1.21.1-1.3.7.9.139.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:sound-physics-remastered-fabric-1.21.1-1.5.1",
+                                            "name":  "sound-physics-remastered-fabric-1.21.1-1.5.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  205671,
+                                                             "MD5":  "ca55ac70824e229cd1175238b50608a6",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/sound-physics-remastered-fabric-1.21.1-1.5.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:soundsbegone-1.3.5",
+                                            "name":  "soundsbegone-1.3.5",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2737327,
+                                                             "MD5":  "9f06862e3ea693357b35991fb5ba2471",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/soundsbegone-1.3.5.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:stackdeobfuscatorfabric-1.4.3+08e71cc",
+                                            "name":  "StackDeobfuscatorFabric-1.4.3+08e71cc",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  321213,
+                                                             "MD5":  "8dbb0c4c8c1c9f00faeb68fa74ee6d27",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/StackDeobfuscatorFabric-1.4.3%2B08e71cc.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:storagedelight-25.12.09-1.21-fabric",
+                                            "name":  "storagedelight-25.12.09-1.21-fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  656279,
+                                                             "MD5":  "0325885fe1ac1dea5e73e50e58ee3333",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/storagedelight-25.12.09-1.21-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:supermartijn642configlib-1.1.8-fabric-mc1.21",
+                                            "name":  "supermartijn642configlib-1.1.8-fabric-mc1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  206993,
+                                                             "MD5":  "fff83455887d85c6f7ebac7bba24fa8f",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/supermartijn642configlib-1.1.8-fabric-mc1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:supermartijn642corelib-1.1.21-fabric-mc1.21",
+                                            "name":  "supermartijn642corelib-1.1.21-fabric-mc1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  616830,
+                                                             "MD5":  "3da1b1056bb9b19eee8957a537e6c5e0",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/supermartijn642corelib-1.1.21-fabric-mc1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:terrablender-fabric-1.21.1-4.1.0.8",
+                                            "name":  "TerraBlender-fabric-1.21.1-4.1.0.8",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  337989,
+                                                             "MD5":  "cf9f9ea80cd7f8febebbe1752f23b68f",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/TerraBlender-fabric-1.21.1-4.1.0.8.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:timcore-fabric-1.7.3-1.32.0",
+                                            "name":  "timcore-fabric-1.7.3-1.32.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  304444,
+                                                             "MD5":  "f206df5480d269c0c0fe27846acb1d89",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/timcore-fabric-1.7.3-1.32.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:tmcraft-1.4.18+1.7.3",
+                                            "name":  "tmcraft-1.4.18+1.7.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  3360417,
+                                                             "MD5":  "3bb04243884b305b228de0ed352ae89a",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/tmcraft-1.4.18%2B1.7.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:toms_storage_fabric-1.21-2.3.0",
+                                            "name":  "toms_storage_fabric-1.21-2.3.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1962781,
+                                                             "MD5":  "46341f7e08a115bcc3b5b114dff671fb",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/toms_storage_fabric-1.21-2.3.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:tooltipfix-1.1.1-1.20",
+                                            "name":  "tooltipfix-1.1.1-1.20",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  12432,
+                                                             "MD5":  "492430f451d89f7fe2d7b8410c9748ac",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/tooltipfix-1.1.1-1.20.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:trinkets-3.10.0",
+                                            "name":  "trinkets-3.10.0",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  272944,
+                                                             "MD5":  "4a42e243d6d5c25dea83be3ddc0b28b1",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/trinkets-3.10.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:vanillabackport-fabric-1.21.1-1.1.6.3",
+                                            "name":  "VanillaBackport-fabric-1.21.1-1.1.6.3",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  27541846,
+                                                             "MD5":  "48307974d61d69ddda4853325ce9fcb5",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/VanillaBackport-fabric-1.21.1-1.1.6.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:villagerconfig-fabric-4.5.2+1.21.1",
+                                            "name":  "villagerconfig-fabric-4.5.2+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  355221,
+                                                             "MD5":  "846408008a169019a9d08ac8cc85a58b",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/villagerconfig-fabric-4.5.2%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:voicechat-fabric-1.21.1-2.6.6",
+                                            "name":  "voicechat-fabric-1.21.1-2.6.6",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  5339396,
+                                                             "MD5":  "6363d48c9b45e914d23c0f12b0c395c9",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/voicechat-fabric-1.21.1-2.6.6.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:waystones-fabric-1.21.1-21.1.29",
+                                            "name":  "waystones-fabric-1.21.1-21.1.29",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  898551,
+                                                             "MD5":  "a4a05c3fcbcb9f78a49d6008e5f83470",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/waystones-fabric-1.21.1-21.1.29.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:xaerominimap-fabric-1.21.1-25.3.10",
+                                            "name":  "xaerominimap-fabric-1.21.1-25.3.10",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2177333,
+                                                             "MD5":  "0ae4f63c97b972ef3fdcd918c924feb5",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/xaerominimap-fabric-1.21.1-25.3.10.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:xaeroworldmap-fabric-1.21.1-1.40.11",
+                                            "name":  "xaeroworldmap-fabric-1.21.1-1.40.11",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1413973,
+                                                             "MD5":  "bb6a594507dc9db0a981b2a2d6cf910c",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/xaeroworldmap-fabric-1.21.1-1.40.11.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:yet_another_config_lib_v3-3.8.1+1.21.1-fabric",
+                                            "name":  "yet_another_config_lib_v3-3.8.1+1.21.1-fabric",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1131541,
+                                                             "MD5":  "82e0aa325a523da33b643dcbbd42d1e6",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/yet_another_config_lib_v3-3.8.1%2B1.21.1-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:zamega-fabric-1.7.1",
+                                            "name":  "zamega-fabric-1.7.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2374842,
+                                                             "MD5":  "0c1a7288e27d27212add5c77e2174086",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/zamega-fabric-1.7.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:zfastnoise-1.0.11+1.21",
+                                            "name":  "zfastnoise-1.0.11+1.21",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  34752,
+                                                             "MD5":  "4ca53dcf833fdbea00f33d18b903d982",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/zfastnoise-1.0.11%2B1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:zoomify-2.15.1+1.21.1",
+                                            "name":  "zoomify-2.15.1+1.21.1",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  874396,
+                                                             "MD5":  "6acad20ba58f98b832935a5c74566416",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/zoomify-2.15.1%2B1.21.1.jar"
+                                                         }
+                                        }
+                                    ]
+                    }
+                ]
+}
