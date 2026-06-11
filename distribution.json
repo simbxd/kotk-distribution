@@ -220,12 +220,12 @@
                                         },
                                         {
                                             "id":  "kotk:Carved Wood-fabric-1.21.1-1.8.2",
-                                            "name":  "Carved Wood-fabric-1.21.1-1.8.2.jar",
+                                            "name":  "Carved.Wood-fabric-1.21.1-1.8.2.jar",
                                             "type":  "FabricMod",
                                             "artifact":  {
                                                              "size":  2458227,
                                                              "MD5":  "10e6ff35e9cf3a5ef70cbebdee70ac8c",
-                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Carved Wood-fabric-1.21.1-1.8.2.jar"
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Carved.Wood-fabric-1.21.1-1.8.2.jar"
                                                          }
                                         },
                                         {
@@ -1090,12 +1090,12 @@
                                         },
                                         {
                                             "id":  "kotk:Only Bottle Caps-1.3.0",
-                                            "name":  "Only Bottle Caps-1.3.0.jar",
+                                            "name":  "Only.Bottle.Caps-1.3.0.jar",
                                             "type":  "FabricMod",
                                             "artifact":  {
                                                              "size":  250451,
                                                              "MD5":  "2380d10d347cf1c18dfdf9eec429f599",
-                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Only Bottle Caps-1.3.0.jar"
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/Only.Bottle.Caps-1.3.0.jar"
                                                          }
                                         },
                                         {
@@ -2161,3 +2161,4 @@
                     }
                 ]
 }
+
