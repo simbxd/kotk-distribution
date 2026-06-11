@@ -2,15 +2,15 @@
     "version":  "2.0.0",
     "discord":  {
                     "clientId":  "0",
-                    "smallImageText":  "KOTK - Cobblemon",
+                    "smallImageText":  "Ombrelia",
                     "smallImageKey":  "icon"
                 },
     "rss":  "",
     "servers":  [
                     {
                         "id":  "kotk-cobblemon-1.21.1",
-                        "name":  "KOTK - Cobblemon",
-                        "description":  "Serveur KOTK - Cobblemon | Fabric 1.21.1",
+                        "name":  "Ombrelia",
+                        "description":  "Serveur Ombrelia | Fabric 1.21.1",
                         "icon":  "https://raw.githubusercontent.com/simbxd/kotk-distribution/main/icon.png",
                         "version":  "1.4.0",
                         "address":  "game07.helloserv.fr:25501",
