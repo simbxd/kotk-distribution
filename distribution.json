@@ -23,8 +23,8 @@
                                             "name":  "Fabric Loader 0.18.4",
                                             "type":  "FabricHosted",
                                             "artifact":  {
-                                                             "size":  0,
-                                                             "MD5":  "0",
+                                                             "size":  1944518,
+                                                             "MD5":  "56c00fa22e0452e8567be1feae73c3b9",
                                                              "url":  "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
                                                          }
                                         },
@@ -1674,7 +1674,7 @@
                                                          }
                                         },
                                         {
-                                            "id":  "kotk:fm_kotk_icon_32",
+                                            "id":  "kotk:fm_kotk_icon_32_icns",
                                             "name":  "kotk_icon_32.icns",
                                             "type":  "File",
                                             "artifact":  {
