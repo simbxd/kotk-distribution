@@ -5,6 +5,7 @@
                     "smallImageText":  "KOTK - Cobblemon",
                     "smallImageKey":  "icon"
                 },
+    "rss":  "",
     "servers":  [
                     {
                         "id":  "kotk-cobblemon-1.21.1",
