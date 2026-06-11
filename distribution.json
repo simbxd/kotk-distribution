@@ -21,12 +21,24 @@
                                         {
                                             "id":  "net.fabricmc:fabric-loader:0.18.4",
                                             "name":  "Fabric Loader 0.18.4",
-                                            "type":  "FabricHosted",
+                                            "type":  "Fabric",
                                             "artifact":  {
                                                              "size":  1944518,
                                                              "MD5":  "56c00fa22e0452e8567be1feae73c3b9",
                                                              "url":  "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
-                                                         }
+                                                         },
+                                            "subModules":  [
+                                                               {
+                                                                   "id":  "fabric-loader-0.18.4-1.21.1",
+                                                                   "name":  "Fabric Loader 0.18.4 Version Manifest",
+                                                                   "type":  "VersionManifest",
+                                                                   "artifact":  {
+                                                                                    "size":  2847,
+                                                                                    "MD5":  "afbb49ce472f5453710b1f5baff7a3a5",
+                                                                                    "url":  "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.18.4/profile/json"
+                                                                                }
+                                                               }
+                                                           ]
                                         },
                                         {
                                             "id":  "kotk:accessories_compat_layer-fabric-0.1.12+1.21.1",
