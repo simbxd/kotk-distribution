@@ -1716,8 +1716,8 @@
                                             "name":  "kotk_cobblemon.txt",
                                             "type":  "File",
                                             "artifact":  {
-                                                             "size":  37266,
-                                                             "MD5":  "37d2afd1ede9728fd0d2995a0ea98c08",
+                                                             "size":  44414,
+                                                             "MD5":  "e58c4e2fea898d7eb6d34afef56effaa",
                                                              "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/fm_kotk_cobblemon.txt",
                                                              "path":  "config/fancymenu/customization/kotk_cobblemon.txt"
                                                          }
@@ -1808,6 +1808,28 @@
                                                              "MD5":  "7283d566bec18fc4ddf1f1659a777cd9",
                                                              "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/fm_slideshow_frame.png",
                                                              "path":  "config/fancymenu/assets/slideshow_frame.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:fm_pokedex_menu_30th",
+                                            "name":  "pokedex_menu_30th.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  180389,
+                                                             "MD5":  "8bb12531ee1cefc711a214c4dd827bec",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/fm_pokedex_menu_30th.png",
+                                                             "path":  "config/fancymenu/assets/pokedex_menu_30th.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kotk:fm_30th_anniversary",
+                                            "name":  "30th_anniversary.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  19459,
+                                                             "MD5":  "2fdbc254a3f28ef060fee13751826058",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/fm_30th_anniversary.png",
+                                                             "path":  "config/fancymenu/assets/30th_anniversary.png"
                                                          }
                                         },
                                         {
