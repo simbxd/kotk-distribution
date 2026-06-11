@@ -1767,6 +1767,17 @@
                                                          }
                                         },
                                         {
+                                            "id":  "kotk:fm_bg_test",
+                                            "name":  "bg_test.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  67,
+                                                             "MD5":  "6d57e7eef671f57fb910bbf9b833bc68",
+                                                             "url":  "https://github.com/simbxd/kotk-distribution/releases/download/v1.4/bg_test.png",
+                                                             "path":  "config/fancymenu/assets/bg_test.png"
+                                                         }
+                                        },
+                                        {
                                             "id":  "kotk:fm_background_arceus",
                                             "name":  "background_arceus.jpg",
                                             "type":  "File",
